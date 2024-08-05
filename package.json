@@ -34,7 +34,7 @@
     "minimatch": "9.0.5"
   },
   "devDependencies": {
-    "@agaroot/eslint-config-common": "2.1.9",
+    "@agaroot/eslint-config-common": "2.1.12",
     "@agaroot/eslint-config-jest": "2.1.2",
     "@changesets/changelog-github": "0.5.0",
     "@changesets/cli": "2.27.7",
