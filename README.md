@@ -1,7 +1,7 @@
 # action-restrict-base-branch
 
-[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/agaroot-technologies/action-restrict-base-branch/blob/main/LICENSE)
-[![Github](https://img.shields.io/github/followers/agaroot-technologies?label=Follow&logo=github&style=social)](https://github.com/orgs/agaroot-technologies/followers)
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/praha-inc/action-restrict-base-branch/blob/main/LICENSE)
+[![Github](https://img.shields.io/github/followers/praha-inc?label=Follow&logo=github&style=social)](https://github.com/orgs/praha-inc/followers)
 
 Restrict pull requests to merge only into specific branches.
 
@@ -21,7 +21,7 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - uses: agaroot-technologies/action-restrict-base-branch@v1
+      - uses: praha-inc/action-restrict-base-branch@v1
         with:
           rules: |
             main <- development
@@ -76,10 +76,10 @@ rules: |
 
 Contributions, issues and feature requests are welcome.
 
-Feel free to check [issues page](https://github.com/agaroot-technologies/action-restrict-base-branch/issues) if you want to contribute.
+Feel free to check [issues page](https://github.com/praha-inc/action-restrict-base-branch/issues) if you want to contribute.
 
 ## 📝 License
 
-Copyright © 2020 [AGAROOT TECHNOLOGIES](https://tech.agaroot.co.jp/).
+Copyright © 2020 [PrAha](https://www.praha-inc.com/).
 
-This project is [```MIT```](https://github.com/agaroot-technologies/action-restrict-base-branch/blob/main/LICENSE) licensed.
+This project is [```MIT```](https://github.com/praha-inc/action-restrict-base-branch/blob/main/LICENSE) licensed.
